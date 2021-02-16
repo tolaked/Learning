@@ -1,13 +1,16 @@
 import React from 'react'
 import HigherOrderComp from './HigherOrderComp'
-
+import {TestRef} from './TestRef'
 
 // TO DEMONSTRATE HOC
 const Users = ({count,handleCount}) => {
-    console.log('rerender?')
+
     return (
         <div>
             <button onClick={handleCount}>Clicked {count} times</button>
+            <div>
+                <TestRef/>
+                </div>
         </div>
     )
 }

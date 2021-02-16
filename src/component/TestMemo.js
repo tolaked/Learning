@@ -4,7 +4,7 @@ const TestMemo = () => {
     const [counterOne,setCounterOne] = useState(0)
     const [counterTwo,setCounterTwo] = useState(2)
     const increment = () =>{
-        
+       
         setCounterOne(prevCount=>prevCount + 1)
     }
 
