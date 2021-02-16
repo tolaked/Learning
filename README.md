@@ -12,3 +12,6 @@ Functions that takes a component as an argument and returns a new function
 # useMemo Hook 
 - A react hook that memoizes the result of a function. It can  be used for optimizing functions doing heavy calculations.
 
+# useRef Hook
+- A react hook used in referencing a DOM element .Also used to store mutable variables without triggering a re-render
+
