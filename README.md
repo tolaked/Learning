@@ -15,3 +15,11 @@ Functions that takes a component as an argument and returns a new function
 # useRef Hook
 - A react hook used in referencing a DOM element .Also used to store mutable variables without triggering a re-render
 
+# React Animation
+
+# 17-02-2021
+# Composition vs Inheritance in react
+- Inheritance uses the keyword extends to allow any component to use the properties and methods of another component connected with the parent.
+- The composition model uses the parent-child relationship by passing the state, props, and function to the child component as a prop's value.
+
+# Recursion
